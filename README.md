@@ -81,6 +81,7 @@
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="28" title="MySQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프로젝트 메인 DB, 스키마 설계</td></tr>
+<tr><td align="center"><img src="https://cdn.simpleicons.org/postgresql/4169E1" width="28" title="PostgreSQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프로젝트 DB 설계·쿼리 작성</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/mariadb/003545" width="28" title="MariaDB"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>MySQL 호환 환경 사용</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/sqlite/003B57" width="28" title="SQLite"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>경량 로컬 DB 사용</td></tr>
 </table>
@@ -100,24 +101,13 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/github/181717" width="28" title="GitHub"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>개인 프로젝트 관리</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/gitlab/FC6D26" width="28" title="GitLab"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 프로젝트 협업, MR 리뷰</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/jira/0052CC" width="28" title="Jira"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>태스크 분배, 담당자·기한 관리</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/confluence/172B4D" width="28" title="Confluence"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>프로젝트 문서화</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/notion/000000" width="28" title="Notion"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>회의록·문서 정리 및 공유</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/mattermost/0058CC" width="28" title="Mattermost"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 커뮤니케이션</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/slack/4A154B" width="28" title="Slack"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>팀 커뮤니케이션</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/discord/5865F2" width="28" title="Discord"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 커뮤니케이션, 음성 회의</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/figma/F24E1E" width="28" title="Figma"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>화면 설계 확인·협업</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/postman/FF6C37" width="28" title="Postman"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>API 테스트</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/swagger/85EA2D" width="28" title="Swagger"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>API 문서화</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/gradle/02303A" width="28" title="Gradle"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Spring 프로젝트 빌드</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/npm/CB3837" width="28" title="npm"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프론트 패키지 관리</td></tr>
-</table>
-
-### IDE
-
-<table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/intellijidea/000000" width="28" title="IntelliJ IDEA"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Java·Spring 주 IDE</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" width="28" title="VS Code"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프론트·Python 주 IDE</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/pycharm/000000" width="28" title="PyCharm"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Python 프로젝트</td></tr>
 </table>
 
 ---
