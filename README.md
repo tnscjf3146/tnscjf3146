@@ -21,7 +21,8 @@
 
 <sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
-#### Language
+<details>
+<summary>Language</summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="28" title="Java"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Spring Boot 백엔드 개발의 주 언어</td></tr>
@@ -31,7 +32,10 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="28" title="SQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>MySQL 쿼리 작성, JPA와 연동</td></tr>
 </table>
 
-#### Backend
+</details>
+
+<details>
+<summary>Backend</summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/springboot/6DB33F" width="28" title="Spring Boot"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>REST API 설계·구현</td></tr>
@@ -39,7 +43,10 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/django/092E20" width="28" title="Django"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Python 웹 서버·REST API 개발</td></tr>
 </table>
 
-#### Frontend
+</details>
+
+<details>
+<summary>Frontend</summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/react/61DAFB" width="28" title="React"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>랜딩 페이지 3D 모션 구현, 렌더링 최적화</td></tr>
@@ -51,7 +58,10 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/vite/646CFF" width="28" title="Vite"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>프론트 프로젝트 빌드 환경</td></tr>
 </table>
 
-#### AI
+</details>
+
+<details>
+<summary>AI</summary>
 
 <table>
 <tr><td align="center"><img src="https://img.shields.io/badge/RAG-1A1A1A?style=flat-square"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>문서 임베딩→검색→답변 구조 구현, 청킹 단위 튜닝</td></tr>
@@ -62,13 +72,18 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/pandas/150458" width="28" title="pandas"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>데이터 EDA·전처리</td></tr>
 </table>
 
-#### Tool
+</details>
+
+<details>
+<summary>Tool</summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/postman/FF6C37" width="28" title="Postman"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>API 테스트</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/jupyter/F37626" width="28" title="Jupyter"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>AI 실습 주 환경</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/anaconda/44A833" width="28" title="Anaconda"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Python 환경 관리</td></tr>
 </table>
+
+</details>
 
 </details>
 
@@ -106,15 +121,98 @@
 
 ## Projects
 
-### 혼자소누리 (관통 프로젝트)
+<details>
+<summary><b>혼자소누리</b> · 관통 프로젝트</summary>
 
-### 새코미 (공통 프로젝트)
+📅 YYYY.MM – YYYY.MM · 👥 N명 · 🧑‍💻 담당 역할
 
-### G-SHARED (특화 프로젝트)
+#### 소개
+<!-- 저장소 링크 -->
 
-### [mdreader](https://github.com/tnscjf3146/mdreader)
+#### 담당
+- 
+- 
 
-마크다운 문서를 읽기 위한 애플리케이션. `TypeScript`
+#### 기술
+
+
+#### 트러블슈팅
+**문제** → **원인** → **해결** → **결과**
+
+#### 회고
+
+
+<!-- 스크린샷: assets/honja-soonuri/ -->
+
+</details>
+
+<details>
+<summary><b>새코미</b> · 공통 프로젝트</summary>
+
+📅 YYYY.MM – YYYY.MM · 👥 N명 · 🧑‍💻 담당 역할
+
+#### 소개
+<a href="https://github.com/jeongsanghoedam/secome"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
+
+#### 담당
+- 
+- 
+
+#### 기술
+
+
+#### 트러블슈팅
+**문제** → **원인** → **해결** → **결과**
+
+#### 회고
+
+
+<!-- 스크린샷: assets/saekomi/ -->
+
+</details>
+
+<details>
+<summary><b>G-SHARED</b> · 특화 프로젝트</summary>
+
+📅 YYYY.MM – YYYY.MM · 👥 N명 · 🧑‍💻 담당 역할
+
+#### 소개
+유휴 GPU 공유 플랫폼 — 블록체인 에스크로 기반 AI 학습 연산 마켓
+
+<a href="https://github.com/tnscjf3146/g-shared"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
+
+#### 담당
+- 
+- 
+
+#### 기술
+
+
+#### 트러블슈팅
+**문제** → **원인** → **해결** → **결과**
+
+#### 회고
+
+
+<!-- 스크린샷: assets/g-shared/ -->
+
+</details>
+
+<details>
+<summary><b>mdreader</b> · 개인 프로젝트</summary>
+
+#### 소개
+마크다운 문서를 읽기 위한 애플리케이션.
+
+<a href="https://github.com/tnscjf3146/mdreader"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
+
+#### 기술
+TypeScript
+
+#### 회고
+
+
+</details>
 
 ---
 
