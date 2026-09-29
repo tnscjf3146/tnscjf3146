@@ -62,21 +62,18 @@
 </details>
 
 <details>
-<summary><b>AI / Data</b></summary>
+<summary><b>AI</b></summary>
 
 <sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
 <tr><td align="center"><img src="https://img.shields.io/badge/RAG-1A1A1A?style=flat-square"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>문서 임베딩→검색→답변 구조 구현, 청킹 단위 튜닝</td></tr>
-<tr><td align="center"><img src="https://img.shields.io/badge/Vector_DB-1A1A1A?style=flat-square"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>임베딩 저장 및 의미 기반 유사도 검색</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="28" title="LangChain"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>RAG 파이프라인 구성</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="28" title="PyTorch"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>MLP·CNN 등 모델 구현 실습</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="28" title="Hugging Face"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>사전학습 모델 탐색·다운로드</td></tr>
 <tr><td align="center"><img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logoColor=black" title="Transformers"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>사전학습 모델 로드 및 추론</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/numpy/013243" width="28" title="NumPy"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>선형대수·수치 연산 실습</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/pandas/150458" width="28" title="pandas"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>데이터 EDA·전처리</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/jupyter/F37626" width="28" title="Jupyter"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>AI 실습 주 환경</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/anaconda/44A833" width="28" title="Anaconda"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Python 환경 관리</td></tr>
 </table>
 
 </details>
@@ -95,22 +92,31 @@
 </details>
 
 <details>
-<summary><b>Tool / Collaboration</b></summary>
+<summary><b>Collaboration</b></summary>
 
 <sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/git/F05032" width="28" title="Git"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>브랜치 전략, 충돌 해결</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/github/181717" width="28" title="GitHub"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>개인 프로젝트 관리</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/gitlab/FC6D26" width="28" title="GitLab"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 프로젝트 협업, MR 리뷰</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/jira/0052CC" width="28" title="Jira"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>태스크 분배, 담당자·기한 관리</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/notion/000000" width="28" title="Notion"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>회의록·문서 정리 및 공유</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/mattermost/0058CC" width="28" title="Mattermost"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 커뮤니케이션</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/discord/5865F2" width="28" title="Discord"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 커뮤니케이션, 음성 회의</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/figma/F24E1E" width="28" title="Figma"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>화면 설계 확인·협업</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Tool</b></summary>
+
+<sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
+
+<table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/postman/FF6C37" width="28" title="Postman"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>API 테스트</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/gradle/02303A" width="28" title="Gradle"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Spring 프로젝트 빌드</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/npm/CB3837" width="28" title="npm"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프론트 패키지 관리</td></tr>
+<tr><td align="center"><img src="https://cdn.simpleicons.org/jupyter/F37626" width="28" title="Jupyter"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>AI 실습 주 환경</td></tr>
+<tr><td align="center"><img src="https://cdn.simpleicons.org/anaconda/44A833" width="28" title="Anaconda"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Python 환경 관리</td></tr>
+<tr><td align="center"><img src="https://cdn.simpleicons.org/canva/00C4CC" width="28" title="Canva"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>발표 자료·시각 자료 제작</td></tr>
 </table>
 
 </details>
