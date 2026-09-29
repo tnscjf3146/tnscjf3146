@@ -17,20 +17,9 @@
 ## Tech
 
 <details>
-<summary><b>숙련도 기준</b></summary>
-
-| 숙련도 | 의미 |
-|:---:|---|
-| ⬛⬜⬜⬜⬜ | 학습 단계 |
-| ⬛⬛⬜⬜⬜ | 프로젝트에서 사용해 봄 |
-| ⬛⬛⬛⬜⬜ | 문서를 보며 개발 가능 |
-| ⬛⬛⬛⬛⬜ | 문서 없이 개발 가능 |
-| ⬛⬛⬛⬛⬛ | 내부 동작을 설명하고 남을 가르칠 수 있음 |
-
-</details>
-
-<details>
 <summary><b>Language</b></summary>
+
+<sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
 <tr><td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="28" title="Java"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Spring Boot 백엔드 개발의 주 언어</td></tr>
@@ -45,6 +34,8 @@
 <details>
 <summary><b>Backend</b></summary>
 
+<sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
+
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/springboot/6DB33F" width="28" title="Spring Boot"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>REST API 설계·구현</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/hibernate/59666C" width="28" title="JPA"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>엔티티 설계, 연관관계 매핑</td></tr>
@@ -55,6 +46,8 @@
 
 <details>
 <summary><b>Frontend</b></summary>
+
+<sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/react/61DAFB" width="28" title="React"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>랜딩 페이지 3D 모션 구현, 렌더링 최적화</td></tr>
@@ -70,6 +63,8 @@
 
 <details>
 <summary><b>AI / Data</b></summary>
+
+<sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
 <tr><td align="center"><img src="https://img.shields.io/badge/RAG-1A1A1A?style=flat-square"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>문서 임베딩→검색→답변 구조 구현, 청킹 단위 튜닝</td></tr>
@@ -87,19 +82,9 @@
 </details>
 
 <details>
-<summary><b>Database</b></summary>
-
-<table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="28" title="MySQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프로젝트 메인 DB, 스키마 설계</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/postgresql/4169E1" width="28" title="PostgreSQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프로젝트 DB 설계·쿼리 작성</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/mariadb/003545" width="28" title="MariaDB"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>MySQL 호환 환경 사용</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/sqlite/003B57" width="28" title="SQLite"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>경량 로컬 DB 사용</td></tr>
-</table>
-
-</details>
-
-<details>
 <summary><b>Infra / DevOps</b></summary>
+
+<sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/docker/2496ED" width="28" title="Docker"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>컨테이너 기반 배포 환경 구성</td></tr>
@@ -111,6 +96,8 @@
 
 <details>
 <summary><b>Tool / Collaboration</b></summary>
+
+<sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/git/F05032" width="28" title="Git"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>브랜치 전략, 충돌 해결</td></tr>
