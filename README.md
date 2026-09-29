@@ -29,7 +29,8 @@
 
 </details>
 
-### Language
+<details>
+<summary><b>Language</b></summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="28" title="Java"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Spring Boot 백엔드 개발의 주 언어</td></tr>
@@ -39,7 +40,10 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="28" title="SQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>MySQL 쿼리 작성, JPA와 연동</td></tr>
 </table>
 
-### Backend
+</details>
+
+<details>
+<summary><b>Backend</b></summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/springboot/6DB33F" width="28" title="Spring Boot"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>REST API 설계·구현</td></tr>
@@ -47,7 +51,10 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/django/092E20" width="28" title="Django"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Python 웹 서버·REST API 개발</td></tr>
 </table>
 
-### Frontend
+</details>
+
+<details>
+<summary><b>Frontend</b></summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/react/61DAFB" width="28" title="React"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>랜딩 페이지 3D 모션 구현, 렌더링 최적화</td></tr>
@@ -59,25 +66,28 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/vite/646CFF" width="28" title="Vite"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>프론트 프로젝트 빌드 환경</td></tr>
 </table>
 
-### AI / Data
+</details>
+
+<details>
+<summary><b>AI / Data</b></summary>
 
 <table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/openai/412991" width="28" title="OpenAI API"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>GPT 프롬프트 기반 챗봇 응답 생성</td></tr>
 <tr><td align="center"><img src="https://img.shields.io/badge/RAG-1A1A1A?style=flat-square"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>문서 임베딩→검색→답변 구조 구현, 청킹 단위 튜닝</td></tr>
 <tr><td align="center"><img src="https://img.shields.io/badge/Vector_DB-1A1A1A?style=flat-square"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>임베딩 저장 및 의미 기반 유사도 검색</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="28" title="LangChain"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>RAG 파이프라인 구성</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/openai/412991" width="28" title="Whisper"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>회의 녹음 음성 전사</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="28" title="PyTorch"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>MLP·CNN 등 모델 구현 실습</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="28" title="Hugging Face"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>사전학습 모델 탐색·다운로드</td></tr>
 <tr><td align="center"><img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logoColor=black" title="Transformers"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>사전학습 모델 로드 및 추론</td></tr>
-<tr><td align="center"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>회귀·분류 모델 학습 실습</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/numpy/013243" width="28" title="NumPy"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>선형대수·수치 연산 실습</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/pandas/150458" width="28" title="pandas"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>데이터 EDA·전처리</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/jupyter/F37626" width="28" title="Jupyter"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>AI 실습 주 환경</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/anaconda/44A833" width="28" title="Anaconda"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Python 환경 관리</td></tr>
 </table>
 
-### Database
+</details>
+
+<details>
+<summary><b>Database</b></summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="28" title="MySQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프로젝트 메인 DB, 스키마 설계</td></tr>
@@ -86,7 +96,10 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/sqlite/003B57" width="28" title="SQLite"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>경량 로컬 DB 사용</td></tr>
 </table>
 
-### Infra / DevOps
+</details>
+
+<details>
+<summary><b>Infra / DevOps</b></summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/docker/2496ED" width="28" title="Docker"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>컨테이너 기반 배포 환경 구성</td></tr>
@@ -94,7 +107,10 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/ubuntu/E95420" width="28" title="Ubuntu"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>개발·배포 서버 환경</td></tr>
 </table>
 
-### Tool / Collaboration
+</details>
+
+<details>
+<summary><b>Tool / Collaboration</b></summary>
 
 <table>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/git/F05032" width="28" title="Git"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>브랜치 전략, 충돌 해결</td></tr>
@@ -109,6 +125,8 @@
 <tr><td align="center"><img src="https://cdn.simpleicons.org/gradle/02303A" width="28" title="Gradle"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Spring 프로젝트 빌드</td></tr>
 <tr><td align="center"><img src="https://cdn.simpleicons.org/npm/CB3837" width="28" title="npm"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프론트 패키지 관리</td></tr>
 </table>
+
+</details>
 
 ---
 
