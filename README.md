@@ -122,22 +122,30 @@
 ## Projects
 
 <details>
-<summary><b>혼자소누리</b> · 관통 프로젝트</summary>
+<summary><b>혼자소누리</b> · 노코드 쇼핑몰 빌더 + AI 스튜디오</summary>
 
-📅 YYYY.MM – YYYY.MM · 👥 N명 · 🧑‍💻 담당 역할
+📅 2026.06 · 👥 2명 · 🧑‍💻 풀스택 · AI
 
 #### 소개
-<!-- 저장소 링크 -->
+코딩 없이 템플릿과 테마를 골라 나만의 쇼핑몰을 만드는 플랫폼. 상품 사진의 배경을 AI로 갈아 끼우는 스튜디오와 서비스 안내 챗봇을 붙였습니다.
+
+<a href="https://github.com/tnscjf3146/honja-sonuri"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
 
 #### 담당
-- 
-- 
+- Vue 3 프론트(몰·상품·커뮤니티·고객지원·유튜브 화면)와 Django REST 백엔드(accounts·malls·products·categories·community·support) 대부분 구현
+- AI 이미지 스튜디오 — FastAPI 서버에서 SAM으로 상품 누끼 → Stable Diffusion Inpainting으로 배경 5장 생성 → 원본 상품을 알파 합성
+- 한글로 대충 적은 배경 아이디어를 OpenAI(GMS)로 SD용 영문 프롬프트로 고도화, 서비스 안내 챗봇
+- JWT 인증 — 전역 Axios 인터셉터로 401 시 세션 초기화·자동 로그아웃, 로그아웃 시 refresh 토큰 블랙리스트
+- 다차원(재귀) 카테고리와 카테고리별 동적 필수 고시정보, 관리자 백오피스(공지·회원 권한·매출 통계)
 
 #### 기술
-
+Vue 3 · Vite · Pinia · Django · DRF · SimpleJWT · FastAPI · PyTorch · SAM · Stable Diffusion (diffusers) · OpenAI API · YouTube API · Docker
 
 #### 트러블슈팅
-**문제** → **원인** → **해결** → **결과**
+**문제** SAM에 이미지 중앙 점 하나만 주면 상품이 비켜 서 있거나 배경 틈에 걸릴 때 배경을 상품으로 오인해 누끼가 깨짐
+**원인** 힌트 점 1개로는 전경과 배경의 경계 정보가 부족
+**해결** 중앙 영역 격자에 전경 점 9개, 네 모퉁이에 배경 점 4개를 동적으로 배치해 마스크 생성. SD 1.5 해상도 한계는 512×512로 생성 후 Lanczos 업스케일하고, SAM이 분리한 원본 고화질 상품을 그 위에 합성해 해결
+**결과** 상품 형태를 그대로 유지한 채 배경만 바뀐 결과물 5장을 안정적으로 반환
 
 #### 회고
 
@@ -147,22 +155,31 @@
 </details>
 
 <details>
-<summary><b>새코미</b> · 공통 프로젝트</summary>
+<summary><b>새코미</b> · 스마트 회의·협업 플랫폼</summary>
 
-📅 YYYY.MM – YYYY.MM · 👥 N명 · 🧑‍💻 담당 역할
+📅 2026.07 – 2026.08 · 👥 6명 · 🧑‍💻 AI
 
 #### 소개
+회의를 녹음하면 전사·요약해 회의록을 만들고, 프로젝트 문서를 근거로 질문에 답하는 협업 플랫폼. AI 기능은 별도 FastAPI 서버로 분리해 Spring 백엔드와 연동했습니다.
+
 <a href="https://github.com/jeongsanghoedam/secome"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
 
 #### 담당
-- 
-- 
+- AI 게이트웨이 서버 전체 설계·구현 (FastAPI, 엔드포인트 7개)
+- RAG 파이프라인 — 문서 청킹 → 임베딩 → pgvector 의미 검색 → 근거 인용 답변. pgvector 미설치 환경은 키워드 검색으로 자동 폴백
+- 회의 녹음 전사(Whisper) → 타임스탬프 발화 배열 → 최종 회의록 생성
+- 회의록을 근거로 기존 문서 개정 제안, 문서 템플릿·인터뷰 질문 추천
 
 #### 기술
-
+Python · FastAPI · PostgreSQL 17 + pgvector · OpenAI API (GPT-4.1-mini / GPT-5 / whisper-1 / text-embedding-3-small) · Docker · Jenkins · GitLab · Jira
 
 #### 트러블슈팅
-**문제** → **원인** → **해결** → **결과**
+**문제** 문서 하나를 벡터 하나로 만드니 주제가 섞인 회의록에서 "로그인 어떻게 결정됐어" 같은 질문이 엉뚱한 문서에 걸림
+**원인** 문서 전체의 평균 지점에 벡터가 찍혀 검색이 흐려지고, 걸려도 프롬프트에 앞부분만 잘려 들어가 결정 사항이 누락
+**해결** 마크다운 헤딩 단위로 조각내고, 너무 짧은 절은 다음 조각에 병합, 긴 절은 문단 단위로 재분할. 병합 기준(MIN_CHARS)을 100자로 잡았다가 실측 후 40자로 조정
+**결과** 질문 4개 기준 1위 적중 1/4 → 3/4, 인용이 "어느 문서의 어느 절"까지 가능
+
++ 로컬 임베딩 모델(bge-m3)을 도입했다가 철회 — 운영 EC2 한 대에 JVM·Node·Postgres가 같이 올라가 2.3GB 상주 메모리로 OOM, CPU 추론이 API 왕복보다 느림, 이미지 200MB→5GB. 외부 임베딩 API 단일 경로로 정리
 
 #### 회고
 
@@ -172,24 +189,30 @@
 </details>
 
 <details>
-<summary><b>G-SHARED</b> · 특화 프로젝트</summary>
+<summary><b>G-SHARED</b> · 유휴 GPU 공유 플랫폼</summary>
 
-📅 YYYY.MM – YYYY.MM · 👥 N명 · 🧑‍💻 담당 역할
+📅 2026.08 – 2026.10 · 👥 6명 · 🧑‍💻 프론트엔드 (+ 백엔드 일부)
 
 #### 소개
-유휴 GPU 공유 플랫폼 — 블록체인 에스크로 기반 AI 학습 연산 마켓
+놀고 있는 GPU를 외부 Worker로 연결해 AI 학습 연산을 맡기고, 블록체인 에스크로로 정산하는 연산 마켓. 웹 콘솔에서 작업을 등록하고 워커·지갑·결과를 관리합니다.
 
 <a href="https://github.com/tnscjf3146/g-shared"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
 
 #### 담당
-- 
-- 
+- 프론트엔드 전반 — 랜딩 · 로그인/회원가입 · 콘솔(대시보드, 작업 등록·목록·상세·체인 기록, 워커 등록·목록, 지갑, 계정)
+- 랜딩 3D 연출 — Blender로 만든 GPU 모델(glb)을 Draco 압축해 react-three/fiber로 스크롤에 맞춰 연출, 챕터 단위 스텝 스크롤
+- 워크로드 등록 위저드 — 단계·선택·파일을 초안 저장해 새로고침해도 이어서 작성, 어댑터 버전·이름·다운로드·이어서 학습(v2·v3)
+- API 연동 계층 — MSW 목업으로 백엔드 없이 개발, 에러 코드 10종 매핑, 예치 이중 전송 차단
+- 백엔드 일부 — Job 도메인(DTO·서비스·리포지토리), 서버 시각 UTC→Asia/Seoul 전환과 기존 DATETIME 22컬럼 보정 마이그레이션
 
 #### 기술
-
+Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Three.js / @react-three/fiber · anime.js · Zod · MSW · pnpm · Docker · Spring Boot (Job 도메인)
 
 #### 트러블슈팅
-**문제** → **원인** → **해결** → **결과**
+**문제** 랜딩 3D 연출이 스크롤 중 프레임이 튀고, 첫 진입 시 모델 로드로 화면이 1초 넘게 멈춤
+**원인** 스크롤 이벤트에 렌더가 그대로 따라가 프레임 간격이 흔들리고, 압축 없는 모델 로드가 첫 화면을 막음
+**해결** 프레임 페이싱을 60Hz에 고정하고 스크롤은 스크럽 값만 갱신, GPU 모델을 Draco로 압축해 로드
+**결과** 로드 멈춤 1,163ms → 383ms
 
 #### 회고
 
