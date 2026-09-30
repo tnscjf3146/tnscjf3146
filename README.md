@@ -139,7 +139,31 @@
 - 다차원(재귀) 카테고리와 카테고리별 동적 필수 고시정보, 관리자 백오피스(공지·회원 권한·매출 통계)
 
 #### 기술
-Vue 3 · Vite · Pinia · Django · DRF · SimpleJWT · FastAPI · PyTorch · SAM · Stable Diffusion (diffusers) · OpenAI API · YouTube API · Docker
+
+<details>
+<summary>프론트</summary>
+
+Vue 3 · Vite · Pinia · Vue Router · Axios
+
+</details>
+<details>
+<summary>백엔드</summary>
+
+Django · Django REST Framework · SimpleJWT · YouTube Data API
+
+</details>
+<details>
+<summary>AI</summary>
+
+FastAPI · PyTorch · SAM (Segment Anything) · Stable Diffusion Inpainting (diffusers) · OpenAI API (GMS)
+
+</details>
+<details>
+<summary>Infra</summary>
+
+Docker (GPU 컨테이너)
+
+</details>
 
 #### 트러블슈팅
 **문제** SAM에 이미지 중앙 점 하나만 주면 상품이 비켜 서 있거나 배경 틈에 걸릴 때 배경을 상품으로 오인해 누끼가 깨짐
@@ -171,7 +195,31 @@ Vue 3 · Vite · Pinia · Django · DRF · SimpleJWT · FastAPI · PyTorch · SA
 - 회의록을 근거로 기존 문서 개정 제안, 문서 템플릿·인터뷰 질문 추천
 
 #### 기술
-Python · FastAPI · PostgreSQL 17 + pgvector · OpenAI API (GPT-4.1-mini / GPT-5 / whisper-1 / text-embedding-3-small) · Docker · Jenkins · GitLab · Jira
+
+<details>
+<summary>프론트</summary>
+
+Next.js 15 · React 19 · TypeScript · Tailwind (팀)
+
+</details>
+<details>
+<summary>백엔드</summary>
+
+Spring Boot 3.5 · Java 21 (팀) · PostgreSQL 17 + pgvector
+
+</details>
+<details>
+<summary>AI</summary>
+
+Python · FastAPI · OpenAI API (GPT-4.1-mini / GPT-5 / whisper-1 / text-embedding-3-small) · pgvector 의미 검색
+
+</details>
+<details>
+<summary>Infra</summary>
+
+Docker · Jenkins · GitLab · Jira
+
+</details>
 
 #### 트러블슈팅
 **문제** 문서 하나를 벡터 하나로 만드니 주제가 섞인 회의록에서 "로그인 어떻게 결정됐어" 같은 질문이 엉뚱한 문서에 걸림
@@ -206,7 +254,25 @@ Python · FastAPI · PostgreSQL 17 + pgvector · OpenAI API (GPT-4.1-mini / GPT-
 - 백엔드 일부 — Job 도메인(DTO·서비스·리포지토리), 서버 시각 UTC→Asia/Seoul 전환과 기존 DATETIME 22컬럼 보정 마이그레이션
 
 #### 기술
-Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Three.js / @react-three/fiber · anime.js · Zod · MSW · pnpm · Docker · Spring Boot (Job 도메인)
+
+<details>
+<summary>프론트</summary>
+
+Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Three.js / @react-three/fiber / drei · anime.js · Zod · MSW · pnpm
+
+</details>
+<details>
+<summary>백엔드</summary>
+
+Spring Boot · Java (Job 도메인)
+
+</details>
+<details>
+<summary>Infra</summary>
+
+Docker
+
+</details>
 
 #### 트러블슈팅
 **문제** 랜딩 3D 연출이 스크롤 중 프레임이 튀고, 첫 진입 시 모델 로드로 화면이 1초 넘게 멈춤
