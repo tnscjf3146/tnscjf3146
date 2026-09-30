@@ -146,7 +146,6 @@
 
 Vue 3 · Vite · Pinia · Vue Router · Axios
 
-</td></tr></table>
 </details>
 <details>
 <summary>백엔드</summary>
@@ -169,6 +168,7 @@ Docker (GPU 컨테이너)
 
 <!-- 스크린샷: assets/honja-soonuri/ -->
 
+</td></tr></table>
 </details>
 
 <details>
@@ -195,7 +195,6 @@ Docker (GPU 컨테이너)
 
 Next.js 15 · React 19 · TypeScript · Tailwind (팀)
 
-</td></tr></table>
 </details>
 <details>
 <summary>백엔드</summary>
@@ -218,6 +217,7 @@ Docker · Jenkins · GitLab · Jira
 
 <!-- 스크린샷: assets/saekomi/ -->
 
+</td></tr></table>
 </details>
 
 <details>
@@ -245,7 +245,6 @@ Docker · Jenkins · GitLab · Jira
 
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Three.js / @react-three/fiber / drei · anime.js · Zod · MSW · pnpm
 
-</td></tr></table>
 </details>
 <details>
 <summary>백엔드</summary>
@@ -262,6 +261,7 @@ Docker
 
 <!-- 스크린샷: assets/g-shared/ -->
 
+</td></tr></table>
 </details>
 
 <details>
