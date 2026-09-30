@@ -123,6 +123,7 @@
 
 <details>
 <summary><b>혼자소누리</b> · 노코드 쇼핑몰 빌더 + AI 스튜디오</summary>
+<table><tr><td>
 
 📅 2026.06 · 👥 2명 · 🧑‍💻 풀스택 · AI
 
@@ -145,6 +146,7 @@
 
 Vue 3 · Vite · Pinia · Vue Router · Axios
 
+</td></tr></table>
 </details>
 <details>
 <summary>백엔드</summary>
@@ -171,6 +173,7 @@ Docker (GPU 컨테이너)
 
 <details>
 <summary><b>새코미</b> · 스마트 회의·협업 플랫폼</summary>
+<table><tr><td>
 
 📅 2026.07 – 2026.08 · 👥 6명 · 🧑‍💻 AI
 
@@ -192,6 +195,7 @@ Docker (GPU 컨테이너)
 
 Next.js 15 · React 19 · TypeScript · Tailwind (팀)
 
+</td></tr></table>
 </details>
 <details>
 <summary>백엔드</summary>
@@ -218,6 +222,7 @@ Docker · Jenkins · GitLab · Jira
 
 <details>
 <summary><b>G-SHARED</b> · 유휴 GPU 공유 플랫폼</summary>
+<table><tr><td>
 
 📅 2026.08 – 2026.10 · 👥 6명 · 🧑‍💻 프론트엔드 (+ 백엔드 일부)
 
@@ -240,6 +245,7 @@ Docker · Jenkins · GitLab · Jira
 
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Three.js / @react-three/fiber / drei · anime.js · Zod · MSW · pnpm
 
+</td></tr></table>
 </details>
 <details>
 <summary>백엔드</summary>
@@ -260,6 +266,7 @@ Docker
 
 <details>
 <summary><b>mdreader</b> · 개인 프로젝트</summary>
+<table><tr><td>
 
 #### 소개
 마크다운 문서를 읽기 위한 애플리케이션.
@@ -269,6 +276,7 @@ Docker
 #### 기술
 TypeScript
 
+</td></tr></table>
 </details>
 
 ---
