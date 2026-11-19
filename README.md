@@ -31,11 +31,9 @@
 <summary>Language</summary>
 
 <table>
-<tr><td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="28" title="Java"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Spring Boot 백엔드 개발의 주 언어</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/python/3776AB" width="28" title="Python"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>AI 과정 실습, 데이터 처리, RAG 파이프라인</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="28" title="JavaScript"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>프론트엔드 개발 기본 언어</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/typescript/3178C6" width="28" title="TypeScript"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>mdreader 앱 개발에 사용</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="28" title="SQL"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>MySQL 쿼리 작성, JPA와 연동</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/python.svg" width="28" title="Python"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>AI 과정 실습, 데이터 처리, RAG 파이프라인</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/java.svg" width="28" title="Java"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Spring Boot 백엔드 개발의 주 언어</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/typescript-icon.svg" width="28" title="TypeScript"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>mdreader 앱 개발에 사용</td></tr>
 </table>
 
 </details>
@@ -44,9 +42,9 @@
 <summary>Backend</summary>
 
 <table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/springboot/6DB33F" width="28" title="Spring Boot"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>REST API 설계·구현</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/hibernate/59666C" width="28" title="JPA"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>엔티티 설계, 연관관계 매핑</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/django/092E20" width="28" title="Django"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Python 웹 서버·REST API 개발</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/django-icon.svg" width="28" title="Django"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>Python 웹 서버·REST API 개발</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/spring-icon.svg" width="28" title="Spring Boot"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>REST API 설계·구현</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/hibernate.svg" width="28" title="JPA"></td><td>⬛⬜⬜⬜⬜ Lv.1</td><td>엔티티 설계, 연관관계 매핑</td></tr>
 </table>
 
 </details>
@@ -55,13 +53,9 @@
 <summary>Frontend</summary>
 
 <table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/react/61DAFB" width="28" title="React"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>랜딩 페이지 3D 모션 구현, 렌더링 최적화</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/nextdotjs/000000" width="28" title="Next.js"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>React 기반 프로젝트 구성, 라우팅</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/vuedotjs/4FC08D" width="28" title="Vue.js"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>팀 프로젝트 화면 개발</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/nuxt/00DC82" width="28" title="Nuxt.js"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Vue 기반 프로젝트 구성, 라우팅</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/threedotjs/000000" width="28" title="Three.js"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>랜딩 페이지 3D 모션</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/bootstrap/7952B3" width="28" title="Bootstrap"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>화면 레이아웃에 사용</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/vite/646CFF" width="28" title="Vite"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>프론트 프로젝트 빌드 환경</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/react.svg" width="28" title="React"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>랜딩 페이지 3D 모션 구현, 렌더링 최적화</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/vue.svg" width="28" title="Vue.js"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>팀 프로젝트 화면 개발</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/threejs.svg" width="28" title="Three.js"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>랜딩 페이지 3D 모션</td></tr>
 </table>
 
 </details>
@@ -71,22 +65,8 @@
 
 <table>
 <tr><td align="center"><img src="https://img.shields.io/badge/RAG-1A1A1A?style=flat-square"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>문서 임베딩→검색→답변 구조 구현, 청킹 단위 튜닝</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="28" title="LangChain"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>RAG 파이프라인 구성</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="28" title="PyTorch"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>MLP·CNN 등 모델 구현 실습</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="28" title="Hugging Face"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>사전학습 모델 탐색·다운로드</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/numpy/013243" width="28" title="NumPy"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>선형대수·수치 연산 실습</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/pandas/150458" width="28" title="pandas"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>데이터 EDA·전처리</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary>Tool</summary>
-
-<table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/postman/FF6C37" width="28" title="Postman"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>API 테스트</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/jupyter/F37626" width="28" title="Jupyter"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>AI 실습 주 환경</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/anaconda/44A833" width="28" title="Anaconda"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>Python 환경 관리</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/langchain-icon.svg" width="28" title="LangChain"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>RAG 파이프라인 구성</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/pytorch-icon.svg" width="28" title="PyTorch"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>MLP·CNN 등 모델 구현 실습</td></tr>
 </table>
 
 </details>
@@ -99,13 +79,13 @@
 <sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/github/181717" width="28" title="GitHub"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>개인 프로젝트 관리</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/gitlab/FC6D26" width="28" title="GitLab"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 프로젝트 협업, MR 리뷰</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/jira/0052CC" width="28" title="Jira"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>태스크 분배, 담당자·기한 관리</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/notion/000000" width="28" title="Notion"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>회의록·문서 정리 및 공유</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/mattermost/0058CC" width="28" title="Mattermost"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 커뮤니케이션</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/figma/F24E1E" width="28" title="Figma"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>화면 설계 확인·협업</td></tr>
-<tr><td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="28" title="Canva"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>발표 자료·시각 자료 제작</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/github-icon.svg" width="28" title="GitHub"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>개인 프로젝트 관리</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/gitlab-icon.svg" width="28" title="GitLab"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 프로젝트 협업, MR 리뷰</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/jira.svg" width="28" title="Jira"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>태스크 분배, 담당자·기한 관리</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/notion-icon.svg" width="28" title="Notion"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>회의록·문서 정리 및 공유</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/mattermost-icon.svg" width="28" title="Mattermost"></td><td>⬛⬛⬛⬜⬜ Lv.3</td><td>팀 커뮤니케이션</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/figma.svg" width="28" title="Figma"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>화면 설계 확인·협업</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/devicon/canva.svg" width="28" title="Canva"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>발표 자료·시각 자료 제작</td></tr>
 </table>
 
 </details>
@@ -116,9 +96,9 @@
 <sub>⬛⬜⬜⬜⬜ 학습 단계 · ⬛⬛⬜⬜⬜ 프로젝트에서 사용 · ⬛⬛⬛⬜⬜ 문서 보며 개발 가능 · ⬛⬛⬛⬛⬜ 문서 없이 개발 가능 · ⬛⬛⬛⬛⬛ 내부 동작 설명 가능</sub>
 
 <table>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/docker/2496ED" width="28" title="Docker"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>컨테이너 기반 배포 환경 구성</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/linux/FCC624" width="28" title="Linux"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>기본 명령어, 서버 환경</td></tr>
-<tr><td align="center"><img src="https://cdn.simpleicons.org/ubuntu/E95420" width="28" title="Ubuntu"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>개발·배포 서버 환경</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/docker-icon.svg" width="28" title="Docker"></td><td>⬛⬛⬜⬜⬜ Lv.2</td><td>컨테이너 기반 배포 환경 구성</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/linux-tux.svg" width="28" title="Linux"></td><td>⬛⬜⬜⬜⬜ Lv.1</td><td>기본 명령어, 서버 환경</td></tr>
+<tr><td align="center"><img src="https://api.iconify.design/logos/ubuntu.svg" width="28" title="Ubuntu"></td><td>⬛⬜⬜⬜⬜ Lv.1</td><td>개발·배포 서버 환경</td></tr>
 </table>
 
 </details>
@@ -136,7 +116,7 @@
 #### 소개
 코딩 없이 템플릿과 테마를 골라 나만의 쇼핑몰을 만드는 플랫폼. 상품 사진의 배경을 AI로 갈아 끼우는 스튜디오와 서비스 안내 챗봇을 붙였습니다.
 
-<a href="https://github.com/tnscjf3146/honja-sonuri"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
+<a href="https://github.com/tnscjf3146/honja-sonuri"><img src="https://api.iconify.design/logos/github-icon.svg" width="20" title="GitHub"></a>
 
 #### 담당
 - Vue 3 프론트(몰·상품·커뮤니티·고객지원·유튜브 화면)와 Django REST 백엔드(accounts·malls·products·categories·community·support) 대부분 구현
@@ -186,7 +166,7 @@ Docker (GPU 컨테이너)
 #### 소개
 회의를 녹음하면 전사·요약해 회의록을 만들고, 프로젝트 문서를 근거로 질문에 답하는 협업 플랫폼. AI 기능은 별도 FastAPI 서버로 분리해 Spring 백엔드와 연동했습니다.
 
-<a href="https://github.com/jeongsanghoedam/secome"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
+<a href="https://github.com/jeongsanghoedam/secome"><img src="https://api.iconify.design/logos/github-icon.svg" width="20" title="GitHub"></a>
 
 #### 담당
 - AI 게이트웨이 서버 전체 설계·구현 (FastAPI, 엔드포인트 7개)
@@ -235,7 +215,7 @@ Docker · Jenkins · GitLab · Jira
 #### 소개
 놀고 있는 GPU를 외부 Worker로 연결해 AI 학습 연산을 맡기고, 블록체인 에스크로로 정산하는 연산 마켓. 웹 콘솔에서 작업을 등록하고 워커·지갑·결과를 관리합니다.
 
-<a href="https://github.com/tnscjf3146/g-shared"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
+<a href="https://github.com/tnscjf3146/g-shared"><img src="https://api.iconify.design/logos/github-icon.svg" width="20" title="GitHub"></a>
 
 #### 담당
 - 프론트엔드 전반 — 랜딩 · 로그인/회원가입 · 콘솔(대시보드, 작업 등록·목록·상세·체인 기록, 워커 등록·목록, 지갑, 계정)
@@ -277,7 +257,7 @@ Docker
 #### 소개
 마크다운 문서를 읽기 위한 애플리케이션.
 
-<a href="https://github.com/tnscjf3146/mdreader"><img src="https://cdn.simpleicons.org/github/181717" width="20" title="GitHub"></a>
+<a href="https://github.com/tnscjf3146/mdreader"><img src="https://api.iconify.design/logos/github-icon.svg" width="20" title="GitHub"></a>
 
 #### 기술
 TypeScript
